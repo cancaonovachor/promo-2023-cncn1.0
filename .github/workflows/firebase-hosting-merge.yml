@@ -12,20 +12,14 @@ jobs:
     steps:
       - uses: actions/setup-node@v1
         with:
-          node-version: '12'
+          node-version: '18'
           cache: npm
       - uses: actions/checkout@v2
       - run: npm install
       - run: npm run build
-      - run: npm i -g firebase-tools@^6
-      - name: Deploy to Firebase
-        run: |
-          firebase deploy --token $FIREBASE_TOKEN
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CNCN_1_PROMOTION }}
-      # - uses: FirebaseExtended/action-hosting-deploy@v0
-      #   with:
-      #     repoToken: '${{ secrets.GITHUB_TOKEN }}'
-      #     firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CNCN_1_PROMOTION }}'
-      #     channelId: live
-      #     projectId: cncn-1-promotion
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CNCN_1_PROMOTION }}'
+          channelId: live
+          projectId: cncn-1-promotion
