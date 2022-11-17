@@ -17,9 +17,15 @@ jobs:
       - uses: actions/checkout@v2
       - run: npm install
       - run: npm run build
-      - uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CNCN_1_PROMOTION }}'
-          channelId: live
-          projectId: cncn-1-promotion
+      - run: npm i -g firebase@^9.23.2
+      - name: Deploy to Firebase
+        run: |
+          firebase deploy --token $FIREBASE_TOKEN
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CNCN_1_PROMOTION }}
+      # - uses: FirebaseExtended/action-hosting-deploy@v0
+      #   with:
+      #     repoToken: '${{ secrets.GITHUB_TOKEN }}'
+      #     firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CNCN_1_PROMOTION }}'
+      #     channelId: live
+      #     projectId: cncn-1-promotion
