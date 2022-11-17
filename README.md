@@ -16,7 +16,7 @@
 
 ## セットアップ
 
-- Node の**version 13 が必須（それ以上でも以下でもいけない）**なので、nodebrew 等で v13 をインストールしておくこと
+- Node nodebrew 等で v18 をインストールしておくこと
   - mac（m1）
     - [https://qiita.com/pomufgd/items/a7266db07e3ca338fd74](https://qiita.com/pomufgd/items/a7266db07e3ca338fd74)
     - すごく時間がかかる
@@ -25,7 +25,7 @@
   - windows（WSL）
     - [https://qiita.com/smallriv/items/d42c6abe7fa16be4a474](https://qiita.com/smallriv/items/d42c6abe7fa16be4a474)
 
-本間の環境は `v13.14.0`
+本間の環境は `v19`
 
 ### 起動
 
