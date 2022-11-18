@@ -1,9 +1,9 @@
 {
-  "name": "my-gatsby-site",
+  "name": "promo-2023-cncn1.0",
   "version": "1.0.0",
   "private": true,
-  "description": "my-gatsby-site",
-  "author": "sakin97",
+  "description": "CNCN 1.0 in 2023 Promotion Site",
+  "author": "cancaonovachor",
   "keywords": [
     "gatsby"
   ],
@@ -25,5 +25,8 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "sass": "^1.56.1"
+  },
+  "engines": {
+    "node": ">= 18"
   }
 }
