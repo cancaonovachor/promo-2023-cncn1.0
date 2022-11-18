@@ -28,5 +28,8 @@
   },
   "engines": {
     "node": ">= 18"
+  },
+  "devDependencies": {
+    "gatsby-plugin-esbuild": "^0.0.5"
   }
 }
