@@ -6,5 +6,5 @@ module.exports = {
     title: `CancaoNova Chorus Next 1.0`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-react-helmet"]
+  plugins: ["gatsby-plugin-sass"]
 };

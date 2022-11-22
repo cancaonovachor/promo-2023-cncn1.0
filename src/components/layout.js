@@ -1,9 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import '../assets/scss/main.scss'
+
+const Head = ({title, metas}) => {
+  <>
+    <title>{title}</title>
+    {metas.map(({name, content}, index) => (<meta key={index} name={name} content={content} />) )}
+  </>
+}
 
 const Layout = ({ children, location }) => {
 
@@ -38,15 +44,14 @@ const Layout = ({ children, location }) => {
       `}
       render={data => (
         <>
-          <Helmet
+          <Head
             title={data.site.siteMetadata.title}
-            meta={[
+            metas={[
               { name: 'description', content: 'CancaoNova Chorus Next 1.0 promotion page' },
               { name: 'keywords', content: 'sample, something, cancaonova, カンサォンノーヴァ, カンサォン・ノーヴァ, cancaonovachor, 演奏会, chorus next' },
-            ]}
-          >
-            <html lang="en" />
-          </Helmet>
+            ]}>
+            <html lang="ja" />
+          </Head>
           {content}
         </>
       )}
