@@ -12,7 +12,7 @@ const Header = props => (
         <img src={pic02} alt="" />
       </a>
     </div>
-    <div className="content">
+    <div className="content toppage">
       <div className="inner">
         <h1>Cancaonova Chorus Next 1.0</h1>
         <h2>2023.3.12(sun) 13:00- (open 12:00)</h2>

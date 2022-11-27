@@ -23,11 +23,16 @@
 	}
 
 	body, input, select, textarea {
+		color: _palette(fg-title);	
 		color: _palette(fg);
 		font-family: _font(family);
 		font-weight: _font(weight);
 		font-size: 1rem;
 		line-height: 1.65;
+	}
+
+	body, input, select, textarea , .toppage{
+		color: _palette(fg-title);	
 	}
 
 	a {
@@ -57,10 +62,37 @@
 	}
 
 	p {
+		color: _palette(fg-bold);
 		margin: 0 0 0.8rem 0;
 		font-family: _font(family-japan);
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
+	}
+
+	.toppage {
+		h1, h2, h3, h4, h5, h6, p {
+			color: _palette(fg-title-bold);
+			font-weight: _font(weight-bold);
+			line-height: 1.5;
+			margin: 0 0 (_size(element-margin) * 0.5) 0;
+			letter-spacing: _font(letter-spacing);
+	
+			a {
+				color: inherit;
+				text-decoration: none;
+			}
+	
+			&.major {
+				border-bottom: solid _size(border-width) _palette(title-border);
+				width: -moz-max-content;
+				width: -webkit-max-content;
+				width: -ms-max-content;
+				width: max-content;
+				padding-bottom: 0.5rem;
+				margin: 0 0 (_size(element-margin) * 1) 0;
+			}
+		}
+
 	}
 
 	h1, h2, h3, h4, h5, h6 {

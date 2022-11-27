@@ -50,7 +50,7 @@
       left: calc(50% - #{_size(border-width) * 1});
       width: _size(border-width);
       height: calc(3.5rem + 1px);
-      background: _palette(border);
+      background: _palette(title-border);
     }
   }
 
@@ -66,7 +66,7 @@
     width: 5.5rem;
     height: 5.5rem;
     line-height: 5.5rem;
-    border: solid _size(border-width) _palette(border);
+    border: solid _size(border-width) _palette(title-border);
     border-radius: 100%;
 
     .icon {
@@ -80,9 +80,13 @@
     }
   }
 
+  .content .toppage{
+    border-color: _palette(title-border);
+  }
+
   .content {
     border-style: solid;
-    border-color: _palette(border);
+    // border-color: _palette(border);
     border-top-width: _size(border-width);
     border-bottom-width: _size(border-width);
     max-width: 100%;
@@ -119,12 +123,12 @@
       margin-bottom: 0;
       list-style: none;
       padding-left: 0;
-      border: solid _size(border-width) _palette(border);
+      border: solid _size(border-width) _palette(title-border);
       border-radius: _size(border-radius);
 
       li {
         padding-left: 0;
-        border-left: solid _size(border-width) _palette(border);
+        border-left: solid _size(border-width) _palette(title-border);
 
         &:first-child {
           border-left: 0;
