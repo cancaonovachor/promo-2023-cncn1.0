@@ -61,13 +61,17 @@ class Main extends React.Component {
           私たちの軌跡をなぞるように今までコンクールで演奏した曲目を厳選して演奏します！初の全国大会での演奏曲も披露します♪
           しかも、曲ごとに詳細な解説も聞けちゃいます！より深く曲を味わって下さい！
           </p>
-          <p>料金：2,000円
+          <p>入場料￥2500 前売り￥2000
           <br></br>時間：13:00〜</p>
           <p>演奏予定曲：
-          <br></br>・Laudate Dominum (GYONGYOSI, Levente)
-          <br></br>・Pseudo Yoik (Mäntyjärvi, Jaakko)
-          <br></br>・Ave Maria (BIEBL, Franz)
-          <br></br>etc...</p>
+          <br></br>・Surrexit pastor bonus(Giovanni Pierluigi da Palestrina)
+          <br></br>・Quatre petites prières de saint François d’Assise(Francis Poulenc)
+          <br></br>・Viel werden kommen von Morgen und von Abend(Heinrich Schütz)
+          <br></br>・Beati Mortui(Felix Mendelssohn Bartholdy)
+          <br></br>・Thou my love, art fair(Bob Chilcott) 
+          </p>
+          
+          
           <span className="image-main main">
             <img src={ichiji} alt="" />
           </span>
@@ -90,7 +94,7 @@ class Main extends React.Component {
           <p>デジタルアート×合唱、ポップミュージック×合唱…。
             電子楽器やデジタルアートなどと合唱のコラボレーションセッションです。
             今までにない「合唱の新しい形」創り上げます。様々な演出を取り入れた演奏となります。今まで経験したことのない合唱の“Next”へ導きます。</p>
-          <p>料金：2,000円
+          <p>入場料￥2500 前売り￥2000
           <br></br>時間： 現在調整中</p>
           <p> 演奏予定曲：
           <br></br>・The Alphabet (GYORGY, Ligeti)
