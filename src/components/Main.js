@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import ichiji from '../images/ichiji_edit.jpg'
-import zentai from '../images/zentai.jpg'
+import zentai from '../images/zentai-ticc.jpg'
 import kiito_senzai from '../images/kiito_senzai_edit.jpg'
 import access from '../images/access.jpg'
 
@@ -58,7 +58,7 @@ class Main extends React.Component {
           </span>
           <h3>1st Session: Contest Selection</h3>
           <p>全日本合唱コンクール・東京国際合唱コンクール・声楽アンサンブルコンテスト…etc
-          私たちの軌跡をなぞるように今までコンクールで演奏した曲目を厳選して演奏します！初の全国大会での演奏曲も披露します♪
+          私たちの軌跡をなぞるように今までコンクールで演奏した曲目を厳選して演奏します！
           しかも、曲ごとに詳細な解説も聞けちゃいます！より深く曲を味わって下さい！
           </p>
           <p>入場料￥2500 前売り￥2000
@@ -77,12 +77,12 @@ class Main extends React.Component {
           </span>
           <h3>2nd Session: Co-Creation</h3>
           <p>私たちの活動をより深く知って頂くための団員と観客のみなさんとのコミュニケーションセッションです。
-            西宮の珈琲店のゆげ焙煎所さんと芦屋のチョコレート屋さんのICHIJIさんにもご協力頂来ました！
-            全国各地からあの合唱団からこの人まで!??なゲストもお迎えしますよ♪アトリウム演奏もあるかも？！
+            芦屋のチョコレート屋さんのICHIJIさんにもご協力頂来ました！
+            全国各地からあの合唱団からこの人まで!??なゲストもお迎えしますよ♪アトリウム演奏もあります！！
             それが“無料”で聞けちゃうんです！乞うご期待！
           </p>
           <p>料金：無料(入場には1stまたは3rd sessionの入場券が必要です。)
-          <br></br>時間： 現在調整中</p>
+          <br></br>時間： 14:00〜</p>
           <p>協賛 (敬称略)：
           <br></br>・ICHIJI
           <br></br>・ゆげ焙煎所
@@ -95,11 +95,11 @@ class Main extends React.Component {
             電子楽器やデジタルアートなどと合唱のコラボレーションセッションです。
             今までにない「合唱の新しい形」創り上げます。様々な演出を取り入れた演奏となります。今まで経験したことのない合唱の“Next”へ導きます。</p>
           <p>入場料￥2500 前売り￥2000
-          <br></br>時間： 現在調整中</p>
+          <br></br>時間： 15:00〜</p>
           <p> 演奏予定曲：
-          <br></br>・The Alphabet (GYORGY, Ligeti)
+          <br></br>・The Alphabet (Ligeti György Sándor)
           <br></br>・Digital Poliphony (下薗大樹, 全曲初演)
-          <br></br>・Kalkadunga Yurdu (BARTON, William)
+          <br></br>・Kalkadunga Yurdu (William Barton)
           <br></br>etc...
           </p>
           {close}
