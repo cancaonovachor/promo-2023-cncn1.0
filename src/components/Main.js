@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import ichiji from '../images/ichiji_edit.jpg'
-import zentai from '../images/zentai.jpg'
+import zentai from '../images/zentai-ticc.jpg'
 import kiito_senzai from '../images/kiito_senzai_edit.jpg'
 import access from '../images/access.jpg'
 
