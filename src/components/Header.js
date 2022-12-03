@@ -60,7 +60,7 @@ const Header = props => (
         <li>
           <a
             className="use-border"
-            href="https://t.livepocket.jp/e/7anr0"
+            href="https://passmarket.yahoo.co.jp/event/show/detail/023pm8ynq6r21.html"
             target="_blank"
           >
             Ticket <FontAwesomeIcon icon={faExternalLinkAlt} />
