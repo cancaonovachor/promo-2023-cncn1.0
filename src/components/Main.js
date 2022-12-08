@@ -77,15 +77,14 @@ class Main extends React.Component {
           </span>
           <h3>2nd Session: Co-Creation</h3>
           <p>私たちの活動をより深く知って頂くための団員と観客のみなさんとのコミュニケーションセッションです。
-            芦屋のチョコレート屋さんのICHIJIさんにもご協力頂来ました！
-            全国各地からあの合唱団からこの人まで!??なゲストもお迎えしますよ♪アトリウム演奏もあります！！
+            芦屋のチョコレート屋さんのICHIJIさんにもご協力いただきました！
+            全国各地からあの合唱団からこの人まで！？なゲストもお迎えしますよ♪アトリウム演奏もあります！！
             それが“無料”で聞けちゃうんです！乞うご期待！
           </p>
-          <p>料金：無料(入場には1stまたは3rd sessionの入場券が必要です。)
+          <p>料金：無料（入場には1stまたは3rd sessionの入場券が必要です。)
           <br></br>時間： 14:00〜</p>
           <p>協賛 (敬称略)：
           <br></br>・ICHIJI
-          <br></br>・ゆげ焙煎所
           <br></br>ほか、各地合唱団</p>
           <span className="image-main main">
             <img src={kiito_senzai} alt="" />
@@ -97,7 +96,7 @@ class Main extends React.Component {
           <p>入場料￥2500 前売り￥2000
           <br></br>時間： 15:00〜</p>
           <p> 演奏予定曲：
-          <br></br>・The Alphabet (Ligeti György Sándor)
+          <br></br>・The Alphabet (György Ligeti)
           <br></br>・Digital Poliphony (下薗大樹, 全曲初演)
           <br></br>・Kalkadunga Yurdu (William Barton)
           <br></br>etc...
