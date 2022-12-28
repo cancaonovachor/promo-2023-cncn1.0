@@ -82,6 +82,7 @@ class Main extends React.Component {
           <br></br>時間： 14:00〜</p>
           <p>協賛 (敬称略)：
           <br></br>・ICHIJI
+          <br></br>・ゆげ焙煎所
           <br></br>ほか、各地合唱団</p>
           <span className="image-main main">
             <img src={kiito_senzai} alt="" />
