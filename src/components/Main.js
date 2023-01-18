@@ -64,13 +64,17 @@ class Main extends React.Component {
           <p>入場料￥2500 前売り￥2000
           <br></br>時間：13:00〜</p>
           <p>演奏予定曲：
+          <br></br>・Vecchie Letrose(Adrian Willaert)
           <br></br>・Surrexit pastor bonus(Giovanni Pierluigi da Palestrina)
-          <br></br>・Quatre petites prières de saint François d’Assise(Francis Poulenc)
           <br></br>・Viel werden kommen von Morgen und von Abend(Heinrich Schütz)
+          <br></br>・Sammelt zuvor das Unkraut(Heinrich Schütz)
+          <br></br>・Ave Maria(Josquin des prez)
+          <br></br>・Quatre petites prières de saint François d’Assise(Francis Poulenc)
+          <br></br>・Chanson à boire(Francis Poulenc)
           <br></br>・Beati Mortui(Felix Mendelssohn Bartholdy)
-          <br></br>・Thou my love, art fair(Bob Chilcott) 
+          <br></br>・Thou my love, art fair(Bob Chilcott)
+          <br></br>・Ave Maria(Lin Ming-Chieh)
           </p>
-          
           
           <span className="image-main main">
             <img src={ichiji} alt="" />
@@ -83,6 +87,7 @@ class Main extends React.Component {
           <p>協賛 (敬称略)：
           <br></br>・ICHIJI
           <br></br>・ゆげ焙煎所
+          <br></br>・しゃち子。
           <br></br>ほか、各地合唱団</p>
           <span className="image-main main">
             <img src={kiito_senzai} alt="" />
@@ -91,12 +96,14 @@ class Main extends React.Component {
           <p>デジタルアートという切り口で、我々が考える「新しい合唱」を提示します。
           ポピュラーミュージックとの深い融合、映像作品とのインタラクションなど、合唱のまだ見ぬ可能性を感じていただければと思います。</p>
           <p>入場料￥2500 前売り￥2000
-          <br></br>時間： 15:00〜</p>
+          <br></br>時間： 15:30〜</p>
           <p> 演奏予定曲：
-          <br></br>・The Alphabet (György Ligeti)
+          <br></br>・男声合唱編曲ポップス曲集 (編曲:下薗大樹, 詳細曲目は当日乞うご期待！)
           <br></br>・Digital Poliphony (下薗大樹, 全曲初演)
+          <br></br>・The Alphabet (György Ligeti)
           <br></br>・Kalkadunga Yurdu (William Barton)
-          <br></br>etc...
+          <br></br>・第２ヴォカリーズ (武満徹)
+          <br></br>・NyonNyon (Jake Runestad)
           </p>
           {close}
         </article>
