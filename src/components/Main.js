@@ -99,7 +99,7 @@ class Main extends React.Component {
           <br></br>時間： 15:30〜</p>
           <p> 演奏予定曲：
           <br></br>・男声合唱編曲ポップス曲集 (編曲:下薗大樹, 詳細曲目は当日乞うご期待！)
-          <br></br>・Digital Poliphony (下薗大樹, 全曲初演)
+          <br></br>・Digital Polyphony (下薗大樹, 全曲初演)
           <br></br>・The Alphabet (György Ligeti)
           <br></br>・Kalkadunga Yurdu (William Barton)
           <br></br>・第２ヴォカリーズ (武満徹)
