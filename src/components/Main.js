@@ -1,7 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import ichiji from '../images/ichiji_edit.jpg'
+import secoundSession from '../images/2nd-session.jpg'
 import zentai from '../images/zentai-ticc.jpg'
+import ichiji from '../images/ichiji.jpg'
+import yuge from '../images/yuge.jpg'
 import kiito_senzai from '../images/kiito_senzai_edit.jpg'
 import access from '../images/access.jpg'
 
@@ -77,18 +79,55 @@ class Main extends React.Component {
           </p>
           
           <span className="image-main main">
-            <img src={ichiji} alt="" />
+            <img src={secoundSession} alt="" />
           </span>
           <h3>2nd Session: Co-Creation</h3>
           <p>様々なゲストをお招きして「今ここにある合唱」を皆さんとともに考えます。地元の美味しいコーヒーとチョコレートを片手に、特別ゲストとの座談会、各地の合唱団の演奏、パネルディスカッションなどの企画をお楽しみください。
           </p>
           <p>料金：無料（入場には1stまたは3rd sessionの入場券が必要です。)
           <br></br>時間： 14:00〜</p>
-          <p>協賛 (敬称略)：
-          <br></br>・ICHIJI
-          <br></br>・ゆげ焙煎所
+
+          <p>合唱協賛：
           <br></br>・しゃち子。
+          <br></br>・Ti Amo
           <br></br>ほか、各地合唱団</p>
+
+          <p>飲食協賛（以下紹介文）：
+          <br></br>
+          <br></br>
+          <b>ICHIJI</b>
+          <span className="image-main main">
+            <img src={ichiji} alt="" />
+          </span>
+          <br></br>カカオ豆本来の味わいや香りをお届けしたい。
+          <br></br>そんな思いからICHIJIは生まれました。
+          <br></br>この思いをカタチにすると
+          <br></br>チョコレートができるまでの全工程を自社工房で管理し製造する
+          <br></br>”Bean to Bar Chocolate”になりました。
+          <br></br>
+          <br></br>豆の仕入れから選別、焙煎、摩砕、調合、成形まで
+          <br></br>心をこめて手作業でやらせていただいています。
+          <br></br>
+          <br></br>きっと、チョコレートの概念が変わる
+          <br></br>”Bean to Bar Chocolate”をお楽しみください。
+          <br></br>
+          <br></br>
+          <b>ゆげ焙煎所</b>
+          <span className="image-main main">
+            <img src={yuge} alt="" />
+          </span>
+          <br></br>2013年、兵庫県西宮市の官公庁が多いエリアで創業。
+          <br></br>自家焙煎のスペシャルティコーヒー専門店
+          <br></br>
+          <br></br>イタリア製の完全熱風式焙煎機を使用
+          <br></br>毎朝、珈琲豆を丁寧に焙煎しています
+          <br></br>
+          <br></br>『心に響くコーヒー』
+          <br></br>
+          <br></br>を目指して、日々丁寧に
+          <br></br>取り組んでいます。
+          </p>
+
           <span className="image-main main">
             <img src={kiito_senzai} alt="" />
           </span>
