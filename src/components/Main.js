@@ -111,6 +111,8 @@ class Main extends React.Component {
           <br></br>きっと、チョコレートの概念が変わる
           <br></br>”Bean to Bar Chocolate”をお楽しみください。
           <br></br>
+          <br></br>皆さんの生活に寄り添うように楽しめて、誰かと食べると会話が生まれる。そんな世界を目指しています。
+          <br></br>
           <br></br>
           <b>ゆげ焙煎所</b>
           <span className="image-main main">
