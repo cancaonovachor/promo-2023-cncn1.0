@@ -4,6 +4,8 @@ import secoundSession from '../images/2nd-session.jpg'
 import zentai from '../images/zentai-ticc.jpg'
 import ichiji from '../images/ichiji.jpg'
 import yuge from '../images/yuge.jpg'
+import shachiko from '../images/shachiko.jpg'
+import tiamo from '../images/tiamo.jpg'
 import kiito_senzai from '../images/kiito_senzai_edit.jpg'
 import access from '../images/access.jpg'
 
@@ -87,18 +89,26 @@ class Main extends React.Component {
           <p>料金：無料（入場には1stまたは3rd sessionの入場券が必要です。)
           <br></br>時間： 14:00〜</p>
 
-          <p>合唱協賛：
-          <br></br>・しゃち子。
-          <br></br>・Ti Amo
-          <br></br>ほか、各地合唱団</p>
+          <h3>合唱協賛</h3>
+          <b>しゃち子。</b>
+          <span className="image-main main">
+            <img src={shachiko} alt="" />
+          </span>
+          <p>名古屋の選りすぐりのメスゴリラを集めた女声アンサンブル。東山動物園のイケメンゴリラ、シャバーニを師と仰ぎ、迫力と美しさを兼ね備えたサウンド「ゴリリアント・ハーモニー」を目指しています。しゃち子。2度目のCNCN！メンバーも増え、さらにレベルアップした私たちをお楽しみに！</p>
 
-          <p>飲食協賛（以下紹介文）：
-          <br></br>
-          <br></br>
+          <b>Ti Amo</b>
+          <span className="image-main main">
+            <img src={tiamo} alt="" />
+          </span>
+          <p>アメリカ発祥のバーバーショップスタイルで演奏する、男声四人組の社会人アカペラグループ、関西を、拠点に活動中。</p>
+          
+
+          <h3>飲食協賛</h3>
           <b>ICHIJI</b>
           <span className="image-main main">
             <img src={ichiji} alt="" />
           </span>
+          <p>
           <br></br>カカオ豆本来の味わいや香りをお届けしたい。
           <br></br>そんな思いからICHIJIは生まれました。
           <br></br>この思いをカタチにすると
