@@ -15,7 +15,7 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1>CancaoNova Chorus Next 1.0</h1>
-        <h2>2023.3.12(sun) 13:00- (open 12:00)</h2>
+        <h2>2023.3.12(sun) 13:00- (open 12:30)</h2>
         <p>1st Session 13:00-14:00</p>
         <p>2nd Session 14:00-15:30</p>
         <p>3rd Session 15:30-16:30</p>
