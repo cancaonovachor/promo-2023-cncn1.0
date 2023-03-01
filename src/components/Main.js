@@ -6,6 +6,8 @@ import ichiji from '../images/ichiji.jpg'
 import yuge from '../images/yuge.jpg'
 import shachiko from '../images/shachiko.jpg'
 import tiamo from '../images/tiamo.jpg'
+import haishin from '../images/cncn1.0-haishin.jpg'
+import nyujo from '../images/cncn1.0-nyuujo.jpeg'
 import kiito_senzai from '../images/kiito_senzai_edit.jpg'
 import access from '../images/access.jpg'
 
@@ -180,57 +182,32 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Buy Ticket</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
-          <ul className="icons">
-            <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
-              </a>
-            </li>
-          </ul>
+          <h2 className="major">Ticket</h2>
+          <h3>入場チケット (PassMarket)</h3>
+          <span className="image-main main">
+          <a href="https://passmarket.yahoo.co.jp/event/show/detail/023pm8ynq6r21.html" target="_blank">
+            <img src={nyujo} alt=""  />
+            </a>
+          </span>
+          <p>
+            演奏会への入場チケットは
+          <a className="use-border" href="https://passmarket.yahoo.co.jp/event/show/detail/023pm8ynq6r21.html" target="_blank">こちら</a>
+          <br/>
+          デジタルアートと合唱の融合など、新しい演奏会のスタイルを是非とも現場にてお聞き下さい。
+          </p>
+          <br/>
+          <h3>配信チケット (ZAIKO)</h3>
+          <span className="image-main main">
+          <a className="use-border" href="https://zaiko.io/event/354406" target="_blank">
+            <img src={haishin} alt="" />
+            </a>
+          </span>
+          <p>
+          配信チケットは
+          <a className="use-border" href="https://zaiko.io/event/354406" target="_blank">こちら</a>
+          <br/>
+          遠方にお住まいの方や当日現地にお越し頂けない方も、こちらよりライブ配信を視聴いただけます。
+          </p>
           {close}
         </article>
       </div>
