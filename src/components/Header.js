@@ -60,10 +60,15 @@ const Header = props => (
         <li>
           <a
             className="use-border"
-            href="https://passmarket.yahoo.co.jp/event/show/detail/023pm8ynq6r21.html"
-            target="_blank"
+            href="javascript:;"
+            onClick={() => {
+              props.onOpenArticle('ticket')
+            }}
+            // href="https://passmarket.yahoo.co.jp/event/show/detail/023pm8ynq6r21.html"
+            // target="_blank"
           >
-            Ticket <FontAwesomeIcon icon={faExternalLinkAlt} />
+            Ticket
+            {/* Ticket <FontAwesomeIcon icon={faExternalLinkAlt} /> */}
           </a>
         </li>
       </ul>
