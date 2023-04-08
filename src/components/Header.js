@@ -16,7 +16,11 @@ const Header = props => (
       <div className="inner">
         <h1>CancaoNova Chorus Next 1.0</h1>
         <h2>
-          <a target='_blank' className="use-border" href='https://docs.google.com/forms/d/1yUV5xba6gazwzEi5S2LIA-QBZ64AByQbqte4JtOkgQU/edit'>
+          <a
+            target='_blank'
+            className="use-border"
+            href='https://docs.google.com/forms/d/e/1FAIpQLSc06sj-4uyOPnM_-bfl0K6bg2dPrcg496mHolNdXvet_C-4-A/viewform'
+          >
             音源 / 動画予約受付中
           </a>
         </h2>
